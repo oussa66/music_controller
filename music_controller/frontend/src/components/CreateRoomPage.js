@@ -7,6 +7,6 @@ export default class CreateRoomPage extends Component {
   }
 
   render() {
-    return <Button color="primary">create</Button>;
+    return <Button variant="contained" color="primary">f</Button>;
   }
 }

@@ -3,6 +3,6 @@ import React,{Component} from "react";
 export default class HomePage extends Component{
 
     render(){
-        return <h1>hi testing react</h1>
+        return <h1>hi</h1>
     }
 }

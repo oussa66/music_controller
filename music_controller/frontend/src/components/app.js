@@ -12,7 +12,7 @@ export default class App extends Component{
         return <Router>
             <Switch>
                 <Route path="/join" component={RoomJoinPage}/>
-                <Route path="/create" component={CreateRoomPage}/>
+                <Route exact path="/create" component={CreateRoomPage}/>
                 <Route exact path="/" component={HomePage}/>
             </Switch>
         </Router>
